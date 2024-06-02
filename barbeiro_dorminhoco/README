@@ -1,0 +1,17 @@
+****************************************************Barbeiro Dorminhoco****************************************************
+
+Nomes: Tárick Lorran Batista Leite ---- 12021BSI227
+       Izabela Pereira Maestri -------- 12021BSI239
+
+1) A aplicação possui duas variáveis definidas como como padrão: #define num_cadeiras 6 e #define num_clientes 30, caso deseja realizar alteração;
+
+2) A variável num_cadeiras sempre deve ser considerada como sendo 1 do barbeiro e o restante são dos clientes em espera, no exemplo acima num_cadeiras é (5 + 1 = 6);
+
+3) Na função main() irá exibir as opções de qual código deseja executar, sendo 1 para Concorrência sem sincronização e 2 para Concorrência com sincronização;
+
+4) Tanto na opção 1 quanto na opção 2  o "for" para gerar as threads dos clientes possui um sleep() para simular a chegada dos clientes, logo isso irá causar uma "sincronização" do processo, recomenda-se a remoção caso deseja realizar outras análises (No momento o sleep está comentadao);
+
+5) Da mesma forma que o item 4, tanto a função "fbarbeiro_com_sinc()" quanto "barbeiro_sem_sinc()" realiza uma chamada da função "atendimento_barbeiro()" e nesta função também tem um "sleep()" para simular o serviço do barbeiro. Recomenda-se a remoção caso deseja realizar outras análises.
+
+
+

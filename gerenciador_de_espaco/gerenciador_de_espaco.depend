@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1711817151 source:c:\users\lorra\documents\ufu\gerenciador_de_espaco\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
